@@ -22,3 +22,10 @@ select salary from employee_payroll where name='Anish';
 select * from employee_payroll where id=1;
 select * from employee_payroll where start_date between cast('2020-01-22' as date) and date(now());
 
+-- UC6 --
+alter table employee_payroll add gender char(1) after name;
+update employee_payroll set gender='F' where id=2;
+
+select * from employee_payroll;
+
+
