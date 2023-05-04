@@ -1,0 +1,5 @@
+id,name,gender,salary,start_date,phone,address,department
+1,Anish,NULL,10000,2010-05-02,,"Not Available",
+2,Kalpana,F,10000,2010-05-02,,"Not Available",
+3,Milind,NULL,2000,2022-01-22,,"Not Available",
+4,Om,NULL,3000,2020-11-09,,"Not Available",
