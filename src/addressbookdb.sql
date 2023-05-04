@@ -28,6 +28,8 @@ update employee_payroll set gender='F' where id=2;
 
 -- UC7 --
 
+
+select sum(salary) from employee_payroll where gender='F' group by gender;
 select sum(salary) from employee_payroll where gender='F' group by gender;
 select count(name) from employee_payroll where gender='F' group by gender;
 select min(salary) from employee_payroll;
