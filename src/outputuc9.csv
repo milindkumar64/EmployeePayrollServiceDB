@@ -1,0 +1,5 @@
+id,name,gender,salary,start_date,phone,address,department,basic_pay,deductions,taxable_pay,income_pay,net_pay
+1,Anish,NULL,10000,2010-05-02,,"Not Available",,NULL,NULL,NULL,NULL,NULL
+2,Kalpana,F,10000,2010-05-02,,"Not Available",,NULL,NULL,NULL,NULL,NULL
+3,Milind,NULL,2000,2022-01-22,,"Not Available",,NULL,NULL,NULL,NULL,NULL
+4,Om,NULL,3000,2020-11-09,,"Not Available",,NULL,NULL,NULL,NULL,NULL

@@ -41,6 +41,14 @@ alter table employee_payroll add phone varchar(15) not null after start_date;
 alter table employee_payroll add address varchar(100) not null default 'Not Available' after phone;
 alter table employee_payroll add department varchar(100) not null after address;
 
+alter table employee_payroll add basic_pay double after department;
+alter table employee_payroll add deductions double after basic_pay;
+alter table employee_payroll add taxable_pay double after deductions;
+alter table employee_payroll add income_pay double after taxable_pay;
+alter table employee_payroll add net_pay double after income_pay;
+
 select * from employee_payroll;
+
+
 
 
