@@ -63,6 +63,9 @@ insert into employee_department value('4',201);
 insert into employee_department value('5',203);
 insert into employee_department value('6',202);
 
+--- UC12 ---
 Select * from employee_department;
-
+select salary from employee_payroll where name='Anish';
+select * from employee_payroll where id=1;
+select * from employee_payroll where start_date between cast('2020-01-22' as date) and date(now());
 
