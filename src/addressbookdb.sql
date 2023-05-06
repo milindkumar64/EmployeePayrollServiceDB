@@ -53,3 +53,16 @@ select * from employee_payroll;
 
 ---- UC10 ----
 insert into employee_payroll  values('6','Terissa','F','30000','2017-09-12','786578','Jaipur','HR','12000','1200','200','120','20000');
+
+---- UC11 ----
+create table employee_department(employee_id int, department_id int);  
+insert into employee_department value('1',201);
+insert into employee_department value('2',203);
+insert into employee_department value('3',201);
+insert into employee_department value('4',201);
+insert into employee_department value('5',203);
+insert into employee_department value('6',202);
+
+Select * from employee_department;
+
+
