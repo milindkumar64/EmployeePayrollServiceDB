@@ -1,0 +1,7 @@
+id,name,gender,salary,start_date,phone,address,department,basic_pay,deductions,taxable_pay,income_pay,net_pay
+1,Anish,M,10000,2010-05-02,977755,"Not Available",,NULL,NULL,NULL,NULL,NULL
+2,Kalpana,F,10000,2010-05-02,977755,"Not Available",,NULL,NULL,NULL,NULL,NULL
+3,Milind,M,2000,2022-01-22,977755,"Not Available",,NULL,NULL,NULL,NULL,NULL
+4,Om,M,3000,2020-11-09,977755,"Not Available",,NULL,NULL,NULL,NULL,NULL
+5,Terissa,F,20000,2018-09-12,787878,Mumbai,"Sales & Marketing",12000,1200,200,120,20000
+6,Terissa,F,30000,2017-09-12,786578,Jaipur,HR,12000,1200,200,120,20000
